@@ -1,0 +1,70 @@
+{
+  "name": "region-folding-utilities",
+  "displayName": "Region Folding Utilities",
+  "description": "Only supports SQL file for the moment. Provides some utility for folding and unfolding regions, like add/sync lines count of folded regions or add a context menu for folding and unfolding.",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/jonestremblay/Region-Folding-Utilities.git"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.unfoldallregions",
+        "title": "Unfold All Regions"
+      },
+      {
+        "command": "extension.addlinescounttoregions",
+        "title": "Sync Line Count into Region Markers"
+      },
+      {
+        "command": "extension.syncandfoldregions",
+        "title": "Fold & Sync All Regions"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "extension.unfoldallregions",
+          "when": "editorLangId == sql"
+        },
+        {
+          "command": "extension.addlinescounttoregions",
+          "when": "editorLangId == sql"
+        },
+        {
+          "command": "extension.syncandfoldregions",
+          "when": "editorLangId == sql"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test",
+    "install": "npm run compile && vsce package && code --install-extension region-folding-utilities-1.0.0.vsix"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.102.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
