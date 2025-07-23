@@ -7,9 +7,9 @@
     "type": "git",
     "url": "https://github.com/jonestremblay/Region-Folding-Utilities.git"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Other"
@@ -55,7 +55,7 @@
     "install": "npm run compile && vsce package && code --install-extension region-folding-utilities-1.0.1.vsix"
   },
   "devDependencies": {
-    "@types/vscode": "^1.102.0",
+    "@types/vscode": "^1.85.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.31.1",

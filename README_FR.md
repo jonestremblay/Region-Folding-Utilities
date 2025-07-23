@@ -17,10 +17,6 @@ Cette extension fournit des outils pratiques pour gérer les régions de code da
 - **📂 Unfold All Regions** : Déplie toutes les régions du fichier
 - **🖱️ Menu contextuel** : Accès rapide à toutes les commandes via le clic droit
 
-## 📋 Prérequis
-
-- VS Code version 1.102.0 ou supérieure
-
 ## 🛠️ Installation
 
 ### Via VS Code Marketplace
@@ -38,9 +34,9 @@ Cette extension fournit des outils pratiques pour gérer les régions de code da
 
 ## 📖 Utilisation
 
-### Format des régions SQL
+### Format des régions 
 
-L'extension reconnaît les régions SQL au format suivant :
+L'extension reconnaît les régions au format suivant :
 
 ```sql
 -- #region Nom de la région

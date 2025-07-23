@@ -19,3 +19,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
     - Improved information messages
     - The count of total lines that were folded are now shown to the user.
         - For all actions ; Fold & Sync All Regions, Unfold All Regions and Sync Line Count into Region Markers
+
+
+- v1.0.2 Dropped requirements
+    - Changed the required version of VSCode to a older version (1.85.0), for maximum support of a maximum users.
+    - Updated the README.md files about it.

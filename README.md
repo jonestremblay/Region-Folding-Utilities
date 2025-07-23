@@ -17,10 +17,6 @@ This extension provides practical tools to manage code regions in your SQL files
 - **📂 Unfold All Regions**: Unfolds all regions in the file
 - **🖱️ Context menu**: Quick access to all commands via right-click
 
-## 📋 Prerequisites
-
-- VS Code version 1.102.0 or higher
-
 ## 🛠️ Installation
 
 ### Via VS Code Marketplace
@@ -38,9 +34,9 @@ This extension provides practical tools to manage code regions in your SQL files
 
 ## 📖 Usage
 
-### SQL Region Format
+### Region Format
 
-The extension recognizes SQL regions in the following format:
+The extension recognizes regions in the following format:
 
 ```sql
 -- #region Region name
