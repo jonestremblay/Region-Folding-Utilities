@@ -5,13 +5,13 @@ begin
 end   
 -- #endregion
 
--- #region debug section (5 lines inside)
+// #region debug section (5 lines inside)
 begin 
     select 1=1
     select 1=1   
      select 1=1
 end   
--- #endregion
+// #endregion
 
 -- #region debug section (16 lines inside)
 begin 

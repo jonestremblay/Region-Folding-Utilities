@@ -2,7 +2,8 @@
 
 #### English version available here : [README.md](README.md)
 
-Une extension VS Code pour améliorer la gestion des régions dans les fichiers SQL avec des utilitaires de pliage et de comptage de lignes.
+Une extension VS Code pour améliorer la gestion des régions dans les fichiers avec des utilitaires de pliage et de comptage de lignes.
+Note : Les fichiers .txt files ne fonctionnent pas, car ils n'ont pas de syntaxe pour des lignes de commentaires.
 
 ![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/region-folding-utilities?color=blue&logo=visual-studio-code)
 ![GitHub](https://img.shields.io/github/license/jonestremblay/Region-Folding-Utilities)
@@ -19,7 +20,6 @@ Cette extension fournit des outils pratiques pour gérer les régions de code da
 ## 📋 Prérequis
 
 - VS Code version 1.102.0 ou supérieure
-- Fichiers SQL (actuellement, seuls les fichiers SQL sont supportés)
 
 ## 🛠️ Installation
 
